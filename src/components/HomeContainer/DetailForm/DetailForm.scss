@@ -1,0 +1,23 @@
+.form-base-container {
+  margin: 20px auto;
+  font-size: 12px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2em;
+  background: #ededed;
+  padding: 2em 10em;
+
+  .file-upload {
+    display: flex;
+    align-items: center;
+    grid-gap: 10px;
+
+    .upload-file-label {
+      cursor: pointer;
+    }
+  }
+}
+
+.hide-field {
+  display: none;
+}

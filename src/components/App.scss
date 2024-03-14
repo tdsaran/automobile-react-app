@@ -1,0 +1,18 @@
+.app-base-container {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+
+  .app-navigation-link {
+    list-style: none;
+    display: flex;
+    grid-gap: 4em;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+
+    li>a.active {
+      font-weight: bold;
+    }
+  }
+}

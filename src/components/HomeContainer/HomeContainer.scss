@@ -1,0 +1,9 @@
+.home-container {
+  .tile-list-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2em;
+    background: #ededed;
+    padding: 2em;
+  }
+}
